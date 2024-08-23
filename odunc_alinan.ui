@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>odunc_alinan</class>
+ <widget class="QDialog" name="odunc_alinan">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableView" name="tableView_uyeler">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>500</width>
+     <height>220</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>10</y>
+     <width>371</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>ÖDÜNÇ ALMA İŞLEMLERİ</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView_kitaplar">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>80</y>
+     <width>500</width>
+     <height>220</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView_odunc_alinanlar">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>350</y>
+     <width>500</width>
+     <height>220</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>320</y>
+     <width>251</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Ödünç Alınan Kitaplar Listesi</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_odunc_al">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>520</y>
+     <width>83</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Ödünç Al</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>50</y>
+     <width>251</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Tüm Kitaplar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>251</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Tüm Üyeler</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>375</y>
+     <width>135</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Üye NO:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Kitap NO:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_6">
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Ödünç Alma Tarihi:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>370</y>
+     <width>127</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QLineEdit" name="ln_uye_no">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="ln_kitap_no">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QDateEdit" name="tarih"/>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
